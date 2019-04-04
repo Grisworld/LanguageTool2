@@ -109,6 +109,7 @@ public class EnglishWordRepeatRule extends WordRepeatRule {
     }
     //End of editions by Lumpus99
 
+
     //Additions by Grisworld
     if (wordRepetitionOf("that", tokens, position)) {
       return true;   // "There was a problem with my code. I fixed that that night."
